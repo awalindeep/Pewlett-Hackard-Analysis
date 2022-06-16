@@ -32,8 +32,6 @@ FROM unique_titles as ut
 GROUP BY ut.title
 ORDER BY count DESC;
 
-SELECT * FROM retirement_titles
-SELECT * FROM mentorship_eligibilty
 -----------------------------------------------------------------------------------------------------------------------------
 --Deliverable 2: 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -56,8 +54,6 @@ WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 AND (de.to_date = '9999-01-01')
 ORDER BY e.emp_no, ti.from_date DESC;
 
-SELECT * FROM Unique_titles
-
 ---------------------------------------------------------------------------------------------------------------------------
 --Deliverable 3:
 ------------------------------------------------------------------------------------------------------------------------
@@ -78,7 +74,7 @@ ORDER BY rt.emp_no, rt.to_date DESC;
 
 -- How many roles will need to be fill per title and department?
 SELECT ut.dept_name, ut.title, COUNT(ut.title) 
-INTO rolls_to_fill
+INTO roles_to_fill
 FROM (SELECT title, dept_name from unique_titles_department) as ut
 GROUP BY ut.dept_name, ut.title
 ORDER BY ut.dept_name DESC;
@@ -91,4 +87,9 @@ WHERE ut.title IN ('Senior Engineer', 'Senior Staff', 'Technique Leader', 'Manag
 GROUP BY ut.dept_name, ut.title
 ORDER BY ut.dept_name DESC;
 
+SELECT * FROM retirement_titles
+SELECT * FROM Unique_titles
 SELECT * FROM retiring_titles
+SELECT * FROM mentorship_eligibilty
+SELECT * FROM roles_to_fill
+SELECT * FROM qualified_staff
