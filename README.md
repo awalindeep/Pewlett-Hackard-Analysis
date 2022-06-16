@@ -93,7 +93,7 @@ To get the number of positions that will be open in next four years I ran additi
 **Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?**
 
 - Although there is a good representation of expected retirees across all departments, there are on average 59 mentees to every 1 mentor. Depending on departmental needs and position type, the mentor-mentee ratio may vary to ensure mentees are gaining the necessary knowledge, skills, experience, information, and advice.
-- Based on the data we can conclude that there is not enough mentors to prepare the next generation of Pewlett Hackard employees.
+- Based on the data we can conclude that there are not enough mentors to prepare the next generation of Pewlett Hackard employees.
 
 ![Qualified](https://github.com/awalindeep/Pewlett-Hackard-Analysis/blob/AwalinGHMAIN/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/Data/PNG/qualifiedstaff.png)
 
