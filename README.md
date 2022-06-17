@@ -100,5 +100,5 @@ To get the number of positions that will be open in next four years I ran additi
 CSV's
 - [retirement_titles.csv](https://github.com/awalindeep/Pewlett-Hackard-Analysis/blob/AwalinGHMAIN/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/Data/retirement_titles.csv)
 - [unique_titles.csv](https://github.com/awalindeep/Pewlett-Hackard-Analysis/blob/AwalinGHMAIN/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/Data/unique_titles.csv)
-- [retiring_titles.csv](https://github.com/awalindeep/Pewlett-Hackard-Analysis/blob/AwalinGHMAIN/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/Data/retirement_titles.csv)
+- [retiring_titles.csv](https://github.com/awalindeep/Pewlett-Hackard-Analysis/blob/AwalinGHMAIN/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/Data/retiring_titles.csv)
 - [mentorship_eligibilty.csv](https://github.com/awalindeep/Pewlett-Hackard-Analysis/blob/AwalinGHMAIN/Analysis%20Projects%20Folder/Pewlett-Hackard-Analysis%20Folder/Data/mentorship_eligibilty.csv)
